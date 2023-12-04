@@ -18,10 +18,12 @@ Git (version Control)
 
 This project uses an API to extract real time currency rates combined with user input to create real exchange rates between currencies and an exchanged amount based on said rate.
 
-## Instal Instructions:
+## Install Instructions:
 
 - Clone this repository
 - Using terminal, enter the command `cd currency-project` and then the command 'code .'
+- Go to https://www.exchangerate-api.com/ and get an API key
+- Make a file named .env in the root of the project folder, and enter the line "API_KEY=(your-API-key-here)"
 - Next run the command `npm install`
   Then run the command `npm run build`
 - Finally run the command `npm run start`and click "Go Live"
