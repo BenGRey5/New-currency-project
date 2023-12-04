@@ -24,6 +24,7 @@ This project uses an API to extract real time currency rates combined with user 
 - Using terminal, enter the command `cd currency-project` and then the command 'code .'
 - Go to https://www.exchangerate-api.com/ and get an API key
 - Make a file named .env in the root of the project folder, and enter the line "API_KEY=(your-API-key-here)"
+- in the folder currency.js, go to https://v6.exchangerate-api.com/v6/API_KEY/pair/${cash1}/${cash2}/${amount} and put your API key in section of url that says API_KEY
 - Next run the command `npm install`
   Then run the command `npm run build`
 - Finally run the command `npm run start`and click "Go Live"
