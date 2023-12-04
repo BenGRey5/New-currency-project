@@ -1,6 +1,6 @@
-# Planet Age Project
+# Currency Exchange Project
 ## Overview:
-This project is a calculator that takes the ages a user inputs and returns the desired age on other planets.
+This project is a calculator that takes a user's desired currencies and the amount they wish to exchange and returns the amount in the desired currency.
 ## Code contributors/Authors
 B.G Reynolds
 
@@ -9,13 +9,15 @@ B.G Reynolds
 Javascript
 CSS
 HTML
+API integration
 npm (Node Package Manager)
 ESLint
 Git (version Control)
 
 ## Description:
 
-This project uses the user's input to return a user's age on other planets or calculate how many years it will be on other planets before they are a designated age.
+This project uses an API to extract real time currency rates combined with user input to create real exchange rates between currencies and an exchanged amount based on said rate.
+
 ## Instal Instructions:
 
 - Clone this repository
@@ -31,3 +33,7 @@ This project uses the user's input to return a user's age on other planets or ca
 - Copyright (c) 2023 Ben Reynolds
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
